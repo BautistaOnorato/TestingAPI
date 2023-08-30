@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: api-testing
+  data:
+    mongodb:
+      username: usr-mongo
+      password: pwd-mongo
+      database: dev-mongo
+      port: 27016
+      host: localhost
